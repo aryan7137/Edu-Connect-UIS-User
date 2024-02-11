@@ -35,8 +35,8 @@ a {
   text-decoration: none;
 }
 .nav .logo {
-  font-size: 22px;
-  font-weight: 500;
+  width: fit-content;
+  max-height: 80px;
 }
 .nav .nav-links {
   column-gap: 20px;
@@ -154,6 +154,7 @@ a {
     transform: translateX(50%);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
+  
 }
 
 .img_container {
